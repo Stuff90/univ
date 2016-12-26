@@ -2,12 +2,18 @@ import { Component, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/
 
 import { ModelService } from '../shared/model/model.service';
 
+// import { MdButton }  from '@angular/material/button';
+// import { MdIcon }  from '@angular/material/icon';
+
+// import { MdToolbar, MdToolbarRow }  from '@angular/material/toolbar';
+
+
 @Component({
   changeDetection: ChangeDetectionStrategy.Default,
   encapsulation: ViewEncapsulation.Emulated,
   selector: 'home',
   styleUrls: [ './home.component.css' ],
-  templateUrl: './home.component.html'
+  templateUrl: './home.component.html',
 })
 export class HomeComponent {
   data: any = {};

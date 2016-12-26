@@ -18,7 +18,7 @@ import { AppComponent, XLargeDirective } from './app.component';
     HomeModule,
     AboutModule,
     TodoModule,
-    AppRoutingModule
+    AppRoutingModule,
   ]
 })
 export class AppModule {
